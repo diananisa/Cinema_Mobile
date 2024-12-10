@@ -7,7 +7,7 @@ Anggota kelompok kami terdiri dari :
 # Tugas Kelompok Proyek PMOB_AplikasiBioskop
 Proyek ini dikerjakan sebagai salah satu prasayarat tugas akhir mata kuliah Pemorgraman Mobile 2024. Beberapa detail mengenai proyek kami sebagai berikut.
 Proyek Aplikasi Mobile ini menggunakan teknologi sebagai berikut :
-1. Java
+1. Java / Kotlin
 2. API yang digunakan terdiri dari
   
    - [API 1](https://moviesapi.ir/api/v1/movies?page={page}) , API yang digunakan untuk mendapatkan data daftar film yang akan tayang berupa list film yang terdapat di dalam API tersebut.
