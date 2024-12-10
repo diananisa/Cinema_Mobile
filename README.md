@@ -1,5 +1,4 @@
 # Cinema_Mobile
-## Kelompok Aplikasi Bioskop
 Anggota kelompok kami terdiri dari :
 - Dian Anisa Putri (2200018260)
 - Widya Fahmidasari Alya Raushan (2200018266)
