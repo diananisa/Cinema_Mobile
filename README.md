@@ -26,3 +26,15 @@ Bebeberapa kekurangan dari aplikasi yang masih bisa dikembangkan untuk kedepanny
 Penggunaan Firebase pada fitur Storage yang sekarang diharuskan membayar langganan terlebih dahulu agar dapat menggunakan fitur tersebut. Mengapa fitur tersebut kami perlukan, karena untuk melakukan upload gambar ke dalam sistem database, Firebase mangharuskan menggunakan fitur Storage tersebut.
 Isu tersebut kami temukan pada halaman reddit dibawah ini, yang dimana fitur Free dari storage / Spark Plan telah ditiadakan, dan pengguna harus mengupgrade ke Blaze pricing plan untuk menggunakannya seperti mestinya. Dari Official Firebase diumumkan pada tanggal 01 Oktober 2024.
 [Sumber Informasi Atas Kendala Diatas](https://www.reddit.com/r/Firebase/comments/1gj9lja/firebase_storage_no_longer_accessible_under_spark/?rdt=36604)
+
+# Dokumentasi Aplikasi Bioskop
+Berikut beberapa hasil dokumentasi aplikasi bioskop yang kami kerjakan :
+<p align="center" width="100%">
+<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Intro%20Aplikasi.jpg">
+<p align="center">Intro Aplikasi</p>
+</p>
+
+<p align="center" width="100%">
+<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Login%20Aplikasi.jpg">
+<p align="center">Halaman Login Aplikasi</p>
+</p>
