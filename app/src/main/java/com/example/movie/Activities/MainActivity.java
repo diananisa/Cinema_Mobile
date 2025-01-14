@@ -19,12 +19,15 @@ import com.android.volley.Request;
 import com.android.volley.RequestQueue;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
+import com.example.movie.Adapters.CategoryListAdapter;
 import com.example.movie.Adapters.FilmListAdapter;
 import com.example.movie.Adapters.SliderAdapters;
+import com.example.movie.Domain.GenresItem;
 import com.example.movie.Domain.ListFilm;
 import com.example.movie.Domain.SliderItems;
 import com.example.movie.R;
 import com.google.gson.Gson;
+import com.google.gson.reflect.TypeToken;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -47,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
         banner();
         sendRequestBestMovies();
         sendRequestUpComming();
+        sendRequestCategory();
     }
 
     private void sendRequestBestMovies() {
@@ -68,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
     private void sendRequestUpComming() {
         mRequestQueue = Volley.newRequestQueue(this);
         loading3.setVisibility(View.VISIBLE);
-        mStringRequest3 = new StringRequest(Request.Method.GET, "https://moviesapi.ir/api/v1/movies?page=1", response -> {
+        mStringRequest3 = new StringRequest(Request.Method.GET, "https://moviesapi.ir/api/v1/movies?page=2", response -> {
             Gson gson = new Gson();
             loading3.setVisibility(View.GONE);
             ListFilm items = gson.fromJson(response, ListFilm.class);
@@ -79,6 +83,22 @@ public class MainActivity extends AppCompatActivity {
             Log.i("CinemaMobile", "onErrorResponse: "+error.toString());
         });
         mRequestQueue.add(mStringRequest3);
+    }
+
+    private void sendRequestCategory() {
+        mRequestQueue = Volley.newRequestQueue(this);
+        loading2.setVisibility(View.VISIBLE);
+        mStringRequest2 = new StringRequest(Request.Method.GET, "https://moviesapi.ir/api/v1/genres", response -> {
+            Gson gson = new Gson();
+            loading2.setVisibility(View.GONE);
+            ArrayList<GenresItem> catList=gson.fromJson(response, new TypeToken<ArrayList<GenresItem>>(){}.getType());
+            adapterCategory = new CategoryListAdapter(catList);
+            recyclerViewCategory.setAdapter(adapterCategory);
+        }, error -> {
+            loading2.setVisibility(View.GONE);
+            Log.i("CinemaMobile", "onErrorResponse: "+error.toString());
+        });
+        mRequestQueue.add(mStringRequest2);
     }
 
     private void banner() {
@@ -137,9 +157,9 @@ public class MainActivity extends AppCompatActivity {
         viewPager2 = findViewById(R.id.viewpagerSlider);
         recyclerViewBestMovies = findViewById(R.id.view1);
         recyclerViewBestMovies.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        recyclerViewUpComming = findViewById(R.id.view2);
+        recyclerViewUpComming = findViewById(R.id.view3);
         recyclerViewUpComming.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
-        recyclerViewCategory = findViewById(R.id.view3);
+        recyclerViewCategory = findViewById(R.id.view2);
         recyclerViewCategory.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.HORIZONTAL, false));
         loading1 = findViewById(R.id.progressBar1);
         loading2 = findViewById(R.id.progressBar2);
