@@ -38,3 +38,18 @@ Berikut beberapa hasil dokumentasi aplikasi bioskop yang kami kerjakan :
 <img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Login%20Aplikasi.jpg">
 <p align="center">Halaman Login Aplikasi</p>
 </p>
+
+<p align="center" width="100%">
+<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/halamanUtama.jpg">
+<p align="center">Halaman Utama Aplikasi Bag.1</p>
+</p>
+
+<p align="center" width="100%">
+<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/halamanUtama2.jpg">
+<p align="center">Halaman Utama Aplikasi Bag.2</p>
+</p>
+
+<p align="center" width="100%">
+<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/DetailFilm.jpg">
+<p align="center">Halaman Detail Film</p>
+</p>
