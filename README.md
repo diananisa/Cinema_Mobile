@@ -42,4 +42,3 @@ Berikut beberapa hasil dokumentasi aplikasi bioskop yang kami kerjakan :
 </p>
 
 [![Tonton videonya](https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/PreviewDemo.jpg)](https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/PreviewAplikasi.mp4)
-https://github.com/user-attachments/assets/fb540bb0-e8bf-42b2-8afd-f4ef2b6fc971
