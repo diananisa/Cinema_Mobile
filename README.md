@@ -31,9 +31,9 @@ Isu tersebut kami temukan pada halaman reddit dibawah ini, yang dimana fitur Fre
 Berikut beberapa hasil dokumentasi aplikasi bioskop yang kami kerjakan :
 
 <p align="center" width="100%">
-    <img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Intro%20Aplikasi.jpg"> 
-    <img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Login%20Aplikasi.jpg"> 
-    <img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/halamanUtama.jpg"> 
+    <img width="25%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Intro%20Aplikasi.jpg"> 
+    <img width="25%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Login%20Aplikasi.jpg"> 
+    <img width="25%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/halamanUtama.jpg"> 
 </p>
 
 <p align="center" width="100%">
