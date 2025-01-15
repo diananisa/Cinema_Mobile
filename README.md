@@ -29,27 +29,16 @@ Isu tersebut kami temukan pada halaman reddit dibawah ini, yang dimana fitur Fre
 
 # Dokumentasi Aplikasi Bioskop
 Berikut beberapa hasil dokumentasi aplikasi bioskop yang kami kerjakan :
+
 <p align="center" width="100%">
-<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Intro%20Aplikasi.jpg">
-<p align="center">Intro Aplikasi</p>
+    <img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Intro%20Aplikasi.jpg"> 
+    <img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Login%20Aplikasi.jpg"> 
+    <img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/halamanUtama.jpg"> 
 </p>
 
 <p align="center" width="100%">
-<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/Login%20Aplikasi.jpg">
-<p align="center">Halaman Login Aplikasi</p>
+    <img width="45%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/halamanUtama2.jpg"> 
+    <img width="45%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/DetailFilm.jpg">  
 </p>
 
-<p align="center" width="100%">
-<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/halamanUtama.jpg">
-<p align="center">Halaman Utama Aplikasi Bag.1</p>
-</p>
-
-<p align="center" width="100%">
-<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/halamanUtama2.jpg">
-<p align="center">Halaman Utama Aplikasi Bag.2</p>
-</p>
-
-<p align="center" width="100%">
-<img width="33%" src="https://github.com/Widyafahmidasari/tugasProyekPMOB_AplikasiBioskop/blob/main/Screenshots/DetailFilm.jpg">
-<p align="center">Halaman Detail Film</p>
-</p>
+https://github.com/user-attachments/assets/fb540bb0-e8bf-42b2-8afd-f4ef2b6fc971
